@@ -26,7 +26,38 @@ public class Example_02 {
 	}
 
 	
+    @Test
 	
+	public void Test_006()
+	{
+		
+		// Read and Print 2 Dimensional Array Elements where the Array elements are added dynamically
+		
+		
+		int[][] roll_num = new int[5][5];
+		
+		for(int i=0; i<roll_num.length; i++)
+		{
+			for(int j=0; j<roll_num.length; j++)
+			{
+				roll_num[i][j] = i+j ;
+			}
+			
+		}
+		
+		
+		for(int i=0; i<roll_num.length; i++)
+		{
+			for(int j=0; j<roll_num.length; j++)
+			{
+				System.out.print(roll_num[i][j]+" , ");
+			}
+			
+			System.out.println(" ");
+		}
+		
+		
+	}
 	
 	
 }
