@@ -58,6 +58,42 @@ public class Example_02 {
 		
 		
 	}
+    
+    
+    
+@Test
+	
+	public void Test_007()
+	{
+		
+		// Read and Print 2 Dimensional Array Elements where the String Array elements are added 
+	    // dynamically to print square * pattern
+		
+		
+		String[][] roll_num = new String[10][10];
+		
+		for(int i=0; i<roll_num.length; i++)
+		{
+			for(int j=0; j<roll_num.length; j++)
+			{
+				roll_num[i][j] = "*" ;
+			}
+			
+		}
+		
+		
+		for(int i=0; i<roll_num.length; i++)
+		{
+			for(int j=0; j<roll_num.length; j++)
+			{
+				System.out.print(roll_num[i][j]+" ");
+			}
+			
+			System.out.println(" ");
+		}
+		
+		
+	}
 	
 	
 }
