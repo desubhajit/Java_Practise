@@ -50,7 +50,7 @@ public class Example_02 {
 		{
 			for(int j=0; j<roll_num.length; j++)
 			{
-				System.out.print(roll_num[i][j]+" , ");
+				System.out.print(roll_num[i][j]+"  ");
 			}
 			
 			System.out.println(" ");
